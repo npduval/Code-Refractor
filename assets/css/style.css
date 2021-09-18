@@ -1,13 +1,16 @@
+
+/* Specifies the box content   */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Adds a background color to the body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Styles the Horiseon logo */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Make the 'seo' in Horiseon a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*  Syles the navigation link and pushes them to the right */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Removes the bullets in the nav links list */
 .header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+/* Displays the nav links inline */
+.header nav ul li { 
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 25px; 
 }
 
+/* Color of nav links are removes underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+ /* Sizes the paragraph font within each section */ */
 p {
-    font-size: 16px;
+    font-size: 16px; 
 }
 
+/* Adds and sizes hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,23 @@ p {
     background-position: center;
 }
 
+/* Positions SEO and SMM content where image is left text to right */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*  Positions ORM content where image is Right text to left */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Sizes and lines up the area that contains the three horizontal sections  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Sizes and styles the the area that contains the vertical section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +98,60 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Space and color for the three sections within the vertical aside */
+ .benefit-content { 
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; 
 }
 
-.benefit-brand {
+ /* .benefit-brand {  
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: #ffffff; 
+}*/
 
-.benefit-cost {
+/*.benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
+    color: #ffffff; 
+} */
 
-.benefit-lead h3 {
+/* Spaces the header for each section within the aside  */
+.benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
-.benefit-cost h3 {
+/*.benefits-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
-.benefit-lead img {
+/* Spaces and sizes images in aside */
+.benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+   
 }
 
-.benefit-brand img {
+/*.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
-.benefit-cost img {
+/*.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
-.search-engine-optimization {
+/* Spaces and styles main horizontal sections */
+.subject-matter {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +160,54 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/*.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.social-media-marketing {
+/*.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
-.search-engine-optimization img {
+/* Sizes images in horizontal sections */
+.subject-matter img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*.online-reputation-management img {
     max-height: 200px;
-}
+}*/
 
-.social-media-marketing img {
+/*.social-media-marketing img {
     max-height: 200px;
-}
+}*/
 
-.search-engine-optimization h2 {
+/* Sizes headers in horizontal sections */
+.subject-matter h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/*.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
-.social-media-marketing h2 {
+/*.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
+/* Styles and positions the footer messgae */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +215,7 @@ p {
     text-align: center;
 }
 
+/* Sizes the footers top line */
 .footer h2 {
     font-size: 20px;
 }
